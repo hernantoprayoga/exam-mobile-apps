@@ -1,0 +1,29 @@
+{
+  "name": "todo_apps",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.17.3",
+    "expo": "~46.0.8",
+    "expo-app-loading": "~2.1.0",
+    "expo-constants": "~13.2.3",
+    "expo-font": "~10.2.0",
+    "expo-splash-screen": "~0.16.1",
+    "expo-status-bar": "~1.4.0",
+    "prop-types": "^15.8.1",
+    "react": "18.0.0",
+    "react-native": "0.69.4",
+    "react-native-swipe-list-view": "^3.2.9",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
